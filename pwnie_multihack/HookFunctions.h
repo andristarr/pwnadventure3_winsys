@@ -201,7 +201,7 @@ void __fastcall hookedPlayerChat(DWORD pthis, DWORD _edx, char* msg)
 		return;
 	}
 
-	if (wmsg.length() >= 3 && wmsg.substr(0, 3)._Equal("fre"))
+	if (wmsg.length() >= 3 && wmsg.substr(0, 3)._Equal("unf"))
 	{
 		handleFreeze(false);
 		return;
